@@ -23,10 +23,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('admin.home');
     }
 
     public function adminHome(){
-        return view('admin.adminHome');
+         return view('admin.adminHome');
+
+        // return view('crudops.index');
     }
 }

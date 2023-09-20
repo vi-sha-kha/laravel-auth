@@ -9,5 +9,5 @@ class Crudop extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['email', 'image', 'textarea', 'skill', 'flexRadioDefault'];
+    protected $fillable = ['name', 'details'];
 }

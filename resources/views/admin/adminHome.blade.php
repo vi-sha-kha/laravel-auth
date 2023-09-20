@@ -10,6 +10,16 @@
                 <div class="card-body">
                     You are  Admin.
                 </div>
+
+
+        <div class="pull-left">
+            <h2>Redirects anyway not the best way</h2>
+        </div>
+        <div class="pull-right">
+            <a class="btn btn-primary" href="{{ route('crudops.index') }}">CRUDOPS</a>
+        </div>
+
+
             </div>
         </div>
     </div>

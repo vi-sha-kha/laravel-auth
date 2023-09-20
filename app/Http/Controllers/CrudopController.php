@@ -41,7 +41,7 @@ class CrudopController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'detail' => 'required',
+            'details' => 'required',
         ]);
 
         Crudop::create($request->all());
@@ -73,7 +73,7 @@ class CrudopController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'detail' => 'required',
+            'details' => 'required',
         ]);
 
         $crudop->update($request->all());

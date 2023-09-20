@@ -13,11 +13,8 @@ return new class extends Migration
     {
         Schema::create('crudops', function (Blueprint $table) {
             $table->id();
-            $table->string('email');
-            $table->string('image')->nullable();
-            $table->string('textarea');
-            $table->string('skill');
-            $table->string('flexRadioDefault');
+            $table->string('name');
+             $table->text('details');
             $table->timestamps();
         });
     }
